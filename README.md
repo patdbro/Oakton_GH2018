@@ -19,4 +19,4 @@ In order to help young carers, whilst at the same time giving government organis
 
 ![alt text](https://github.com/patdbro/Oakton_GH2018/blob/master/NDIS%20Enrollment.jpeg) 
 
-_ Rate of enrolment growth ACT - National
+Rate of enrolment growth ACT - National
