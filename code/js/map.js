@@ -1,3 +1,6 @@
+let map = null;
+let markers = [];
+
 function initMap() {
   map = new google.maps.Map(document.getElementById('map'), {
     center: {lat: -35.2809, lng: 149.1300},
@@ -5,16 +8,29 @@ function initMap() {
     disableDefaultUI: true
   });
 
-  let markers = [];
-  data.forEach(function(item) {
-    markers.push(new google.maps.Marker({
+  updateMarkers(data);
+}
+
+function updateMarkers(markerData) {
+  markers.forEach(function(marker) {
+    marker.setMap(null);
+  });
+  markers = [];
+
+  let bounds = new google.maps.LatLngBounds();
+  let marker = null;
+  markerData.forEach(function(item) {
+    marker = new google.maps.Marker({
       position: {
         lat: item.lat,
         lng: item.lon
       },
       map: map
-    }));
+    });
+    bounds.extend(marker.getPosition());
+    markers.push(marker);
   });
+ // map.fitBounds(bounds);
 }
 
 function filterData(category, subCategory) {
@@ -35,7 +51,7 @@ function filterData(category, subCategory) {
     }
     return true;
   });
-  return filteredData;
+  updateMarkers(filteredData);
 }
 
 const data = [
