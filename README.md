@@ -13,6 +13,10 @@ These young carers are statistically likely to spend their entire lives caring f
 
 Because of factors like these, and the isolation they face with often 24/7 care of their dependant, these carers likely never get the chance to socialise and make friends with others in their age group. This leads to merely 10% of carers finding a life partner.
 
+![alt text](https://github.com/patdbro/Oakton_GH2018/blob/master/ACT%20Recipients.jpeg) 
+
+ACT Carers Payments and Allowance Recipients
+
 In our investigations, we were told that young carers often felt like they were not living the lives they wanted to.
 These young carers aren’t doing this work for themselves. These brave individuals are accepting responsibility within our community. 
 We think the rest of us have to accept the responsibility of helping them live a normal life and achieve their goals. 
