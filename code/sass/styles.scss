@@ -20,6 +20,11 @@ body {
   padding: 10px 20px;
 }
 
+#intro-page {
+  background: linear-gradient(to top, rgba(255,255,255,0) 40%, rgba(255,255,255,1)), no-repeat url(../images/bg-web.jpg) top right;
+  background-size: cover;
+}
+
 nav {
   position: absolute;
   bottom: 20px;
