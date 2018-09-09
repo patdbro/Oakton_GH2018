@@ -1,0 +1,9 @@
+# Editor files.
+.idea
+
+# System files
+*.DS_Store
+
+# Theme files
+code/node_modules
+
