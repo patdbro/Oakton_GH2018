@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CARE</title>
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+  <link rel="stylesheet" type="text/css" href="css/cards.css">
+  <link rel="stylesheet" type="text/css" href="css/furnace.min.css">
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <script type="text/javascript" src="js/script.js"></script>
+  <script type="text/javascript" src="js/map.js"></script>
+</head>
+<body>
+  <div id="intro-page" class="page au-body open">
+    <h1>Care</h1>
+    <h2>Community. Autonomy. Responsibility. Empowerment.</h2>
+    <nav id="intro-nav">
+      <ul>
+        <li id="nav-marketplace">
+          <a class="guides-card" href="#">
+            <div class="card__wrapper">
+              <div class="card__headline__wrapper">
+                <strong class="card__headline">Marketplace</strong>
+              </div>
+            </div>
+          </a>
+        </li>
+        <li id="nav-community">
+          <a class="guides-card" href="#">
+            <div class="card__wrapper">
+              <div class="card__headline__wrapper">
+                <strong class="card__headline">Community</strong>
+              </div>
+            </div>
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+  <div id="marketplace-page" class="page au-body">
+    <h1>Care marketplace</h1>
+    <nav id="marketplace-nav">
+      <ul>
+        <li id="nav-request">
+          <a class="guides-card" href="#">
+            <div class="card__wrapper">
+              <div class="card__headline__wrapper">
+                <strong class="card__headline">Request help</strong>
+              </div>
+              <div class="card__text">Send out your own request for help with any care, accommodation, equipment or transport.</div>
+              <div class="card__cta card__cta__carat">Request help</div>
+            </div>
+          </a>
+        </li>
+        <li id="nav-browse">
+          <a class="guides-card" href="#">
+            <div class="card__wrapper">
+              <div class="card__headline__wrapper">
+                <strong class="card__headline">Browse services</strong>
+              </div>
+              <div class="card__text">Browse the map of Care services that exist on the Marketplace. Check reviews and contact the provider.</div>
+              <div class="card__cta card__cta__carat">Browse services</div>
+            </div>
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+
+  <div id="map-page" class="page">
+    <div id="map-overlay">
+      <div id="step-1" class="step open">
+        <div class="actions">
+          <div id="category" class="content au-body">
+            <h1 class="au-display-md">What care do you need help with?</h1>
+            <div class="options">
+              <label class="au-control-input option">
+                <input class="au-control-input__input" type="checkbox" name="category" value="care">
+                <span class="au-control-input__text">Help with care</span>
+              </label>
+              <label class="au-control-input option">
+                <input class="au-control-input__input" type="checkbox" name="category" value="accommodation">
+                <span class="au-control-input__text">Accommodation assistance</span>
+              </label>
+              <label class="au-control-input option">
+                <input class="au-control-input__input" type="checkbox" name="category" value="equipment">
+                <span class="au-control-input__text">Equipment</span>
+              </label>
+              <label class="au-control-input option">
+                <input class="au-control-input__input" type="checkbox" name="category" value="transport">
+                <span class="au-control-input__text">Transport</span>
+              </label>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="step-2" class="step">
+        <div class="selection content au-body">
+          <h4>You're looking for</h4>
+          <ul class="selected-categories">
+            <li><a class="selected-category" href="#">Help with care</a></li>
+          </ul>
+        </div>
+        <div class="actions">
+          <div id="sub-category" class="content au-body">
+            <h1 class="au-display-md">What care do you need help with?</h1>
+            <div class="options">
+              <label class="au-control-input option">
+                <input class="au-control-input__input" type="checkbox" name="sub-category" value="physical">
+                <span class="au-control-input__text">Physical wellbeing</span>
+              </label>
+              <label class="au-control-input option">
+                <input class="au-control-input__input" type="checkbox" name="sub-category" value="therapeutic">
+                <span class="au-control-input__text">Therapeutic support</span>
+              </label>
+              <label class="au-control-input option">
+                <input class="au-control-input__input" type="checkbox" name="sub-category" value="early_childhood">
+                <span class="au-control-input__text">Early childhood support</span>
+              </label>
+              <label class="au-control-input option">
+                <input class="au-control-input__input" type="checkbox" name="sub-category" value="daily_tasks">
+                <span class="au-control-input__text">Daily tasks / shared living</span>
+              </label>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="step-3" class="step">
+        <div class="selection content au-body">
+          <h4>You're looking for</h4>
+          <ul class="selected-categories">
+            <li><a class="selected-category" href="#">Help with care</a></li>
+            <li><a class="selected-sub-category" href="#">Early childhood support</a></li>
+          </ul>
+        </div>
+        <div class="actions">
+          <div id="suggestions">
+            <div class="header content au-body">
+              <h1 class="au-display-md">Here are our suggestions</h1>
+            </div>
+            <div class="content au-body">
+              <ul class="result-list">
+                <li><a href="#">Music Therapy for Kids</a></li>
+                <li><a href="#">Growing Early Minds</a></li>
+              </ul>
+              <a class="more" href="#">Expand your search to find more</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="step-4" class="step">
+        <div class="selection content au-body">
+          <h3>Music Therapy for Kids</h3>
+          <ul class="au-tags">
+            <li>NDIS Provider</li>
+            <li>Non-NDIS Approved</li>
+          </ul>
+          <a class="reviews" href="#">View reviews</a>
+        </div>
+        <div class="actions">
+          <div class="back content au-body">
+            <a class="au-direction-link au-direction-link--left" href="#">Go Back</a>
+          </div>
+          <div class="call content au-body">
+            <a href="tel:0407255600">Call this provider</a>
+          </div>
+          <div class="book content au-body">
+            <a href="#">Book a session with this provider</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <div id="map"></div>
+  </div>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCyTkbM1EYPfo-8eIYO7AtrHY_KDBHQULE&callback=initMap" async defer></script>
+</body>
+</html>
