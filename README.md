@@ -17,6 +17,6 @@ To achieve this, we began our investigations into the data that existed around y
 Of the data that exists, we concluded that there was a large gap - and hence a large potential to capture more exhaustive and qualitative datasets. We saw that potential in collecting information on how NDIS allowances were used, referencing where the young carers were located, and the health outcomes of the carers and their dependant.
 In order to help young carers, whilst at the same time giving government organisations more visibility of their lives, we created “CARE”, a service that removes all the painful administrative work, and allows young carers to focus on their roles and meet others nearby who are in similar situations to themselves.  
 
-![alt text](https://github.com/patdbro/Oakton_GH2018/blob/master/NDIS%20Enrollment.jpeg) 
+![alt text](https://github.com/patdbro/Oakton_GH2018/blob/master/NDIS_ACT_NAT.jpeg) 
 
 Rate of enrolment growth ACT - National
