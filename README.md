@@ -1,3 +1,5 @@
+![alt text](https://github.com/patdbro/Oakton_GH2018/blob/master/care-thumbnail.png)
+
 # CARE Gov (beta)
 
 Care
